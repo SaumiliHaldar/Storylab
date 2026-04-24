@@ -1,6 +1,6 @@
 # Research Notes: Mike Murphy Storytelling Website Analysis
 
-An analysis of the storytelling and interaction design on [mike-murphy.webflow.io](https://mike-murphy.webflow.io/). This site serves as a high-end reference for the "Case 17 — The Vanishing Archivist" project.
+An analysis of the storytelling and interaction design on [mike-murphy.webflow.io](https://mike-murphy.webflow.io/). This site serves as a high-end reference for the "Case 17 - The Vanishing Archivist" project.
 
 ## Key Observations
 
