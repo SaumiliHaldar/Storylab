@@ -59,8 +59,10 @@ const Finale: React.FC = () => {
       </motion.div>
 
       {/* Footer line */}
-      <div className="absolute bottom-8 font-body text-cream/20 text-xs tracking-[0.2em] uppercase">
-        Chai ·&nbsp;{new Date().getFullYear()}
+      <div className="absolute bottom-8 font-body text-cream/20 text-xs tracking-[0.2em] uppercase flex items-center gap-4">
+        <span>Chai ·&nbsp;{new Date().getFullYear()}</span>
+        <span className="w-1 h-[1px] bg-cream/10"></span>
+        <span className="font-serif italic lowercase tracking-wider text-cream/10 group-hover:text-ember/20 transition-colors duration-500">फिर मिलेंगे</span>
       </div>
     </section>
   );

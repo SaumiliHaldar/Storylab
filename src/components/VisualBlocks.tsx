@@ -32,7 +32,11 @@ const VisualBlocks: React.FC = () => {
           transition={{ duration: 1 }}
           className="relative z-10 max-w-2xl"
         >
-          <span className="font-display text-ember tracking-[0.3em] text-xs uppercase mb-4 block">The Heat</span>
+          <div className="flex items-center gap-4 mb-4">
+            <span className="font-serif italic text-ember/50 text-base">अग्नि</span>
+            <span className="w-4 h-[1px] bg-ember/30"></span>
+            <span className="font-display text-ember tracking-[0.3em] text-xs uppercase block">The Heat</span>
+          </div>
           <h3 className="font-serif italic text-4xl md:text-6xl text-cream leading-tight">
             "Fire is not a villain. It is the alchemist that transforms leaves into legend."
           </h3>
@@ -57,7 +61,11 @@ const VisualBlocks: React.FC = () => {
           transition={{ duration: 1 }}
           className="relative z-10 max-w-2xl text-right"
         >
-          <span className="font-display text-ember tracking-[0.3em] text-xs uppercase mb-4 block">The Wait</span>
+          <div className="flex items-center justify-end gap-4 mb-4">
+            <span className="font-display text-ember tracking-[0.3em] text-xs uppercase block">The Wait</span>
+            <span className="w-4 h-[1px] bg-ember/30"></span>
+            <span className="font-serif italic text-ember/50 text-base">प्रतीक्षा</span>
+          </div>
           <h3 className="font-serif italic text-4xl md:text-6xl text-cream leading-tight">
             "Good chai cannot be rushed. It steeps on its own time, like every story worth telling."
           </h3>

@@ -41,8 +41,9 @@ const Timeline: React.FC = () => {
   return (
     <section ref={ref} className="w-full py-32 px-6 bg-cinema relative z-10">
       <div className="max-w-6xl mx-auto mb-20">
-        <span className="font-display text-bark tracking-[0.25em] text-xs uppercase block mb-4">A Living History</span>
-        <h2 className="font-serif italic text-4xl md:text-5xl text-cream">The story of a cup.</h2>
+        <span className="font-serif italic text-ember/40 text-lg block mb-1">इतिहास</span>
+        <span className="font-display text-bark tracking-[0.25em] text-xs uppercase block">A Living History</span>
+        <h2 className="font-serif italic text-4xl md:text-5xl text-cream mt-4">The story of a cup.</h2>
         <div className="w-12 h-[1px] bg-ember mt-6"></div>
       </div>
 

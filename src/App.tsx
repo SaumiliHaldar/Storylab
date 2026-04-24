@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import Lenis from 'lenis';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import ChapterIntro from './components/ChapterIntro';
+import Chapters from './components/Chapters';
 import VisualBlocks from './components/VisualBlocks';
 import SpiceGrid from './components/SpiceGrid';
 import Timeline from './components/Timeline';
@@ -35,8 +36,9 @@ function App() {
 
   return (
     <main className="bg-cinema text-cream min-h-screen">
+      <Navbar />
       <Hero />
-      <ChapterIntro />
+      <Chapters />
       <VisualBlocks />
       <SpiceGrid />
       <Timeline />

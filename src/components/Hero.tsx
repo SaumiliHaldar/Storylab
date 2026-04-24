@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="relative w-full h-screen bg-cinema overflow-hidden"
+      className="relative w-full h-[100svh] bg-cinema overflow-hidden"
     >
       {/* Cinematic Image Sequence */}
       <ImageSequence 
@@ -80,17 +80,27 @@ const Hero: React.FC = () => {
         ref={containerRef}
         className="hero-content relative z-20 w-full h-full flex flex-col justify-center items-center px-6 text-center"
       >
-        <div className="max-w-4xl space-y-8">
-          <div className="space-y-2">
+        <div className="max-w-4xl space-y-8 relative">
+          {/* Subtle Hindi Watermark */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-[15rem] md:text-[25rem] text-cream/[0.03] pointer-events-none select-none z-0">
+            चाय
+          </div>
+
+          <div className="space-y-4 relative z-10">
             <h1 className="hero-headline font-serif italic text-7xl md:text-[10rem] lg:text-[13rem] text-cream leading-none tracking-tight">
               Chai
             </h1>
-            <p className="hero-subtext font-body text-cream/60 text-lg md:text-xl tracking-[0.2em] uppercase">
-              The Essence of Steam and Soul
-            </p>
+            <div className="hero-subtext space-y-2">
+              <p className="font-body text-cream/60 text-lg md:text-xl tracking-[0.2em] uppercase">
+                The Essence of Steam and Soul
+              </p>
+              <p className="font-serif italic text-ember/60 text-xl md:text-2xl tracking-wide">
+                भाप और आत्मा का सार
+              </p>
+            </div>
           </div>
 
-          <div className="hero-cta pt-12">
+          <div className="hero-cta pt-12 relative z-10">
             <button className="premium-button">
               Explore CHAI
             </button>
