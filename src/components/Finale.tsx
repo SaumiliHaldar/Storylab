@@ -60,7 +60,7 @@ const Finale: React.FC = () => {
 
       {/* Footer line */}
       <div className="absolute bottom-8 font-body text-cream/20 text-xs tracking-[0.2em] uppercase">
-        Storylab · Chai ·&nbsp;{new Date().getFullYear()}
+        Chai ·&nbsp;{new Date().getFullYear()}
       </div>
     </section>
   );
